@@ -1,0 +1,198 @@
+/* ====================== Extra Small Device [ portrait phones, Max-With less than 576px ]================= */
+@media (min-width: 0) and (max-width: 576px) {
+    li.nav-item {
+         margin-left: 140px;
+     }
+     button.btn.btn_border {
+         margin-left: 155px;
+     }
+ 
+     .navbar-toggler:focus {
+         box-shadow: none;
+     }
+     .navbar-collapse {
+         background-color: #1C1E53;
+     }
+     #navSection {
+        padding: 0;
+    }
+/* ======================= About Us ====================== */
+.aboutBgColor {
+    padding-top: 100px;
+    }
+    .abouSubTtitle {
+        font-size: var(--ReSubTitleFontSize_1);
+        text-align: center;
+    }
+    .abouTtitle {
+        font-size: var(--ReTitleFontSize_1);
+        font-weight: var(--ReTitleFontWeight_1);
+        line-height: 1.4;
+        margin: 8px 0 25px 0;
+        text-align: center;
+    }
+    .aboutPara {
+        font-size: var(--ReParaFontSize_1);
+        font-weight: var(--ReParaFontWeight_1);
+        line-height: var(--ReParaFontLineHeight_1);
+        text-align: justify;
+        padding-right: 0;
+        margin-bottom: 17px;
+    }
+    /* ======================= Who We Are ====================== */
+    #whoWeAre {
+        margin: 5px 0;
+    }
+    .whoWeAre {
+        padding-top: 30px;
+    }
+    .whoTitle {
+        font-size: var(--ReTitleFontSize_3);
+        font-weight: var(--ReTitleFontWeight_3);
+        line-height: var(--TitleFontLineHeight_3);
+        margin: 4px 0 8px 0;
+    }
+    .aboutPara, .wePara {
+        font-size: var(--ReParaFontSize_1);
+        font-weight: var(--ReParaFontWeight_1);
+        padding-right: 0;
+        text-align: justify;
+    }
+    .whoImageBox {
+        margin-top: -25px;
+    }
+    /* ======================= Process ====================== */
+
+    .processTitle {
+        font-size: var(--ReTitleFontSize_4);
+        margin-top: 30px;
+    }
+    .processRound {
+        width: 14px;
+        height: 14px;
+    }
+    .proCardTitle {
+        font-size: var(--ResubTitleFontSize_2);
+        margin: 10px 0 5px 0;
+    }
+    .aboutPara, .wePara, .procCardPara {
+        font-size: var(--ReParaFontSize_1);
+        margin-bottom: 25px;
+    }
+    #process .d-flex {
+        flex-direction: unset;
+        justify-content: center;
+    }
+    .proCardTitle{
+        text-align: center;
+    }
+    #process .procCardPara{
+        text-align: center;
+        padding: 0 30px;
+    }
+    /* =============================== Missions =========================== */
+    #mission {
+        padding: 0;
+        margin: 0;
+    }
+    .misSubTitle {
+        margin-top: 15px;
+    }
+    .misTitle {
+        font-size: var(--ReTitleFontSize_4);
+        font-weight: --ReTitleFontWeight_1;
+        line-height: var(--TitleFontLineHeight_3);
+    }
+    .aboutPara, .wePara, .procCardPara, .misPara {
+        font-size: var(--ReParaFontSize_1);
+        text-align: justify;
+        margin-bottom: 12px;
+    }
+    .misMT {
+        margin-top: 50px;
+    }
+
+    /* ================================== Benefite ======================== */
+    #benefits {
+        margin-bottom: 30px;
+    }
+    .beTitle {
+        font-size: var(--ReTitleFontSize_4);
+        padding: 0;
+        margin: 38px 0 20px;
+    }
+    .card {
+        padding: 32px 15px 25px;
+        text-align: justify;
+        margin-bottom: 19px;
+    }
+    .d-flex {
+        flex-direction: column;
+        gap: 16px;
+    }
+    /* ================================= Team ================================= */
+    #team {
+        padding: 40px 0;
+    }
+    .teamTitle {
+        font-size: var(--ReTitleFontSize_5);
+        font-weight: var(--ReTitleFontWeight_3);
+    }
+    #team .mb-5 {
+        margin-bottom: 20px !important;
+    }
+    .teamCard {
+        width: 100%;
+        padding: 25px 64px 5px;
+    }
+    .teamCardImage {
+        width: 70%;
+    }
+    .teamCardTitle {
+        font-size: var(--ReTitleFontSize_2);
+        margin: 0;
+    }
+    .teamCard.d-flex.flex-column.align-items-center{
+        gap: 2px;
+    }
+    /* =================================== Footer ====================================== */
+    #footer {
+        padding-top: 30px;
+    }
+    .fBgColor {
+        margin-top: var(--ReTitleFontSize_6);
+    }
+    .footerRHead {
+        font-size: var(--ReTitleFontSize_5);
+    }
+    .footerPara {
+        line-height: 1.3;
+    }
+    #footer .d-flex {
+        flex-direction: row;
+    }
+    #footer ol, ul {
+        padding-left: 0;
+    }
+    .footerNavbarMain{
+        flex-wrap: wrap;
+    }
+    .footerNavItem {
+        text-align: center;
+    }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

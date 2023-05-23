@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    width: 1280px;
+    border: 1px dotted red;
+} */
+h1, h2, h3, h4, h5, h6, p, span{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ol, ul{
+    list-style-type: none;
+}
+span{
+    display: block;
+}
+/* ================= Common CSS ======================= */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primaryFontColor);
+}
+.abouSubTtitle, .whoSubTitle{
+    font-size: var(--subTitleFontSize_1);
+    font-weight: var(--subTitleFontWeight_1);
+    line-height: var(--paraFontLineHeight_1);
+    text-transform: capitalize;
+}
+.aboutPara, .wePara, .procCardPara, .misPara, .benPara{
+    font-size: var(--paraFontSize_1);
+    font-weight: var(--paraFontWeight_1);
+    line-height: var(--paraFontLineHeight_1);
+    color: var(--paraFontColor);
+}
+/* ================ NAV Section Started =============== */
+#navSection{
+    width: 100%;
+    padding: 17px 0;
+    background-color: #1C1E53;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bgColor{
+    background-color: #1C1E53;
+}
+.nav-link{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #BBBBCB !important;
+    padding: 0 16px !important;
+    transition: all linear 0.3s;
+}
+.nav-link:hover{
+    color: #ffffff !important;
+}
+.nav_bg{
+    background-color: transparent !important;
+}
+.btn_border{
+    border: 2px solid rgba(244, 246, 252, 0.20);
+    border-radius: 15px;
+    color: #BBBBCB;
+    transition: all linear 0.3s;
+}
+.nav-item:last-child{
+    margin-right: 32px;
+}
+.btn_border:hover{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+}
+
+/* ================ About Section Started =============== */
+.aboutBgColor{
+    padding-top: 220px;
+}
+.abouTtitle{
+    font-size: var(--titleFontSize_1);
+    font-weight: var(--titleFontWeight_1);
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin: 8px 0 31px 0;
+}
+
+.aboutImageBox{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* ==================== Who We Are Started Here ================================= */
+#whoWeAre{
+    margin: 128px 0;
+}
+.whoWeAre{
+    padding-top: 80px;
+    background-color: #F4F5F5;
+}
+.whoTitle{
+    font-size: var(--titleFontSize_3);
+    font-weight: var(--titleFontWeight_1);
+    line-height: var(--TitleFontLineHeight_3);
+    margin: 4px 0 16px 0;
+}
+.whoTitleMarg{
+    margin-top: 35px;
+}
+.whoImageBox{
+    width: 100%;
+    margin-top: 80px;
+}
+/* ============================== Process Started Here ================================ */
+.processTitle{
+    font-size: var(--titleFontSize_2);
+    font-weight: var(--titleFontWeight_1);
+    text-align: center;
+}
+.processRound{
+    width: 24px;
+    height: 24px;
+    background-color: var(--bgColor);
+    border-radius: 50%;
+}
+.proCardTitle{
+    font-size: var(--titleFontSize_4);
+    font-weight: var(--titleFontWeight_2);
+    line-height: var(--TitleFontLineHeight_3);
+    margin: 32px 0 8px 0;
+}
+/* ================================= mission =================================== */
+#mission{
+    background-color: var(--bgColor_2);
+    padding: 128px 0;
+    margin: 128px 0;
+}
+.misSubTitle{
+    font-size: var(--paraFontSize_1);
+    font-weight: var(--titleFontWeight_2);
+    line-height: var(--paraFontLineHeight_1);
+    margin-top: 54px;
+}
+.misTitle{
+    font-size: var(--titleFontSize_3);
+    font-weight: --titleFontWeight_1;
+    line-height: var(--TitleFontLineHeight_3);
+}
+.misMT{
+    margin-top: 96px;
+}
+/* ==================== Benefits  Started Here ================================= */
+.beTitle{
+    font-size: var(--titleFontSize_2);
+    font-weight: var(--titleFontWeight_1);
+    line-height: var(--TitleFontLineHeight_2);
+    text-align: center;
+    padding: 0 340px;
+}
+.card{
+    background-color: var(--bgColor_3);
+    border: 0;
+    padding: 50px 32px 48px 48px;
+}
+.bIcon{
+    width: 32px;
+    height: 32px;
+}
+.card-body{
+    margin-top: 26px;
+}
+.card-title{
+    font-size: var(--titleFontSize_4);
+    font-weight: var(--titleFontWeight_2);
+    line-height: var(--TitleFontLineHeight_4);
+    
+}
+
+/* ==================== Our Team  Started Here ================================= */
+#team{
+    padding: 128px 0;
+    background-color: var(--bgColor_4);    
+}
+.teamTitle{
+    font-size: var(--titleFontSize_2);
+    font-weight: var(--titleFontWeight_2);
+    line-height: var(--TitleFontLineHeight_2);
+    text-align: center;
+    text-transform: capitalize;
+}
+.teamCard{
+    width: 98%;
+    height: auto;
+    background-color: var(--bgColor_5);
+    padding: 48px 64px 32px;
+}
+.teamCardTitle{
+    font-size: var(--titleFontSize_4);
+    font-weight: var(--titleFontWeight_2);
+    line-height: var(--TitleFontLineHeight_4);
+    color: var(--paraFontColor_2);
+    margin: 30px 0 5px 0;
+}
+.teamCardSubTitle{
+    font-size: var(--paraFontSize_1);
+    font-weight: var(--paraFontWeight_1);
+    color: var(--paraFontColor_1);
+    text-transform: capitalize;
+}
+/* ==================== Footer Started Here ================================= */
+#footer{
+    background-color: #1C1E53;
+    padding-top: 100px;
+}
+.footerPara{
+    width: 85%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(244, 246, 252, 0.80);
+}
+.fBgColor{
+    background-color: #FCD980;
+    margin-top: 86px;
+}
+.footerMail{
+    /* width: 399px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: var(--paraFontSize_1);
+    line-height: var(--araFontLineHeight_1);
+    font-weight: 500;
+    color: #282938;
+}
+.footerWeb{
+    /* width: 399px; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+}
+.footerRHead{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.footerIcons i{
+    font-size: 20px;
+    color: #ffffff;
+    transition: all linear 0.3s;
+}
+.footerIcons i:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+.footerLink{
+    padding: 33px 0 13px;
+    background-color: #fff;
+}
+.footerLinkTest, .footerNavLink{
+    width: 399px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    text-transform: capitalize;
+}
+.footerLinkTest, .footerNavLink {
+    width: 100%;
+    font-size: var(--ReParaFontSize_2);
+	line-height: var(--ReParaFontLineHeight_1);
+	font-weight: 500;
+    text-align: center;
+}
+.footerNavItem{
+    display: inline-block;
+}
+.footerNavbarMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+

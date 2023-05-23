@@ -1,0 +1,16 @@
+@media (min-width: 0) and (max-width: 576px) {
+    #pricing {
+        padding: 90px 0 128px 0;
+    }
+    .priTitle {
+        font-size: var(--ReTitleFontSize_5);
+        padding-bottom: 15px;
+    }
+    .priPara {
+        font-size: var(--ReParaFontSize_1);
+        text-align: justify;
+        padding: 5px;
+        margin-bottom: 25px;
+    }
+
+}

@@ -1,0 +1,81 @@
+:root{
+    /* ============== Background Color ==================== */
+    --bgColor: rgba(36, 5, 242, 1);
+    --bgColor_2: rgba(238, 244, 250, 1);
+    --bgColor_3: rgba(238, 244, 250, 1);
+    --bgColor_4: #F4F6FC;
+    --bgColor_5: #FFFFFF;
+    --bgColor_6: rgba(40, 41, 56, 1);
+
+    /* ============== Font Color ==================== */
+    --primaryFontColor: rgb(40, 41, 56);
+    --paraFontColor: rgba(40, 41, 56, 0.70);
+    --paraFontColor_1: gba(29, 33, 48, 0.70);
+    --paraFontColor_2: #1D2130;
+    --paraFontColor_3: #2405F2;
+
+    /* =========== Title Font Size ================ */
+    --titleFontSize_1: 54px;
+    --titleFontSize_2: 48px;
+    --titleFontSize_3: 38px;
+    --titleFontSize_4: 24px;
+
+    
+
+    
+    /* =========== Title Font Weight ================ */
+    --titleFontWeight_1: 600;
+    --titleFontWeight_2: 500;
+    
+
+
+    /* =========== Title Font Line Height ================ */
+    --TitleFontLineHeight_1: 1.6;
+    --TitleFontLineHeight_2: 1.3;
+    --TitleFontLineHeight_3: 1.47;
+    --TitleFontLineHeight_4: 1.50;
+
+
+    
+    /* ===========Sub Title Font Size ================ */
+    --subTitleFontSize_1: 18px;
+    
+
+
+    /* =========== Sub Title Font Weight ================ */
+    --subTitleFontWeight_1: 500;
+    
+    
+
+    /* =========== Sub Title Font Line Height ================ */
+    --subTitleFontLineHeight_1: 1.6;
+
+
+
+    /* =========== Para Font Size ================ */
+    --paraFontSize_1: 16px;
+
+
+    
+    /* =========== Para Font Weight ================ */
+    --paraFontWeight_1: 400;
+    
+
+    
+    /* =========== Para Font Line Height ================ */
+    --paraFontLineHeight_1: 1.75;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

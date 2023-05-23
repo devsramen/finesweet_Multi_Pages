@@ -1,0 +1,88 @@
+:root{
+    --primaryFontColor: #282938;
+
+    /* =========== Title Font Size ================ */
+    --ReTitleFontSize_1: 37px;
+    --ReTitleFontSize_2: 20px;
+    --ReTitleFontSize_3: 23px;
+    --ReTitleFontSize_4: 25px;
+    --ReTitleFontSize_5: 30px;
+    --ReTitleFontSize_6: 35px;
+    
+
+    
+    /* =========== Title Font Weight ================ */
+    --ReTitleFontWeight_1: 500;
+    --ReTitleFontWeight_3: 500;
+    
+
+
+    /* =========== Title Font Line Height ================ */
+        
+
+
+
+    
+    /* ===========Sub Title Font Size ================ */
+    --ReSubTitleFontSize_1: 16px;
+    --ResubTitleFontSize_2: 18px;
+    
+
+
+    /* =========== Sub Title Font Weight ================ */
+    
+    
+    
+
+
+    /* =========== Sub Title Font Line Height ================ */
+       
+
+
+
+
+
+    /* =========== Para Font Size ================ */
+    --ReParaFontSize_1: 14px;
+    --ReParaFontSize_2: 12px;
+
+
+    
+    /* =========== Para Font Weight ================ */
+    --ReParaFontWeight_1: 300;
+
+
+
+    
+    /* =========== Para Font Line Height ================ */
+    --ReParaFontLineHeight_1: 1.5;
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
